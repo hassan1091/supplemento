@@ -1,3 +1,67 @@
 <%- include('partials/header'); -%>
-
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row px-4 px-lg-5 py-lg-4 align-items-center">
+            <div class="col col-lg-6">
+                <h1 class="h2 text-uppercase mb-0">vitamins &amp; minerals</h1>
+            </div>
+            <div class="col col-lg-6 text-lg-end">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-lg-end mb-0 px-0 bg-light">
+                        <li class="breadcrumb-item"><a class="text-dark" href="/"><span>Home</span></a></li>
+                        <li class="breadcrumb-item"><a class="text-dark" href="/#categories"><span>Categories</span></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <a><span><%= supplements[0].type %>
+                                <% if (typeof secondarySupplements !== 'undefined') { %>
+                                    &amp; <%=  secondarySupplements[0].type%> 
+                                <% } %></span></a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5">
+    <div class="container p-1">
+        <div class="row">
+            <div class="col-8">
+                <h1><span style="color: inherit;"><%=supplements[0].type  %> &nbsp;</span><br></h1>
+            </div>
+            <div class="col-4 d-none d-sm-flex justify-content-md-end">
+                <div class="btn-group" role="group"><button class="btn btn-outline-primary btn-lg border rounded-circle m-2 content-original-color-outline content-original-color" type="button" onclick="document.getElementById('<%= supplements[0].type %>').scrollLeft -= 200;"><i class="icon ion-android-arrow-dropleft"></i></button><button class="btn btn-outline-primary btn-lg border rounded-circle m-2 content-original-color-outline content-original-color" type="button" onclick="document.getElementById('<%= supplements[0].type %>').scrollLeft += 200;"><i class="icon ion-android-arrow-dropright"></i></button></div>
+            </div>
+        </div>
+        <div class="card-group card-group-scroll scrollbar-near-moon" id="<%= supplements[0].type %>">
+            <% supplements.forEach(el => { %>
+                <div class="card border rounded-pill shadow-sm d-md-flex d-lg-flex align-items-center m-2 proadct-card" href="&quot;product details.html&quot;">
+                    <div class="card-body">
+                        <h4 class="card-title"><%= el.name %> </h4><a class="stretched-link" href="/category/<%= el.type %>/info/<%= el.name %>"></a>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+    <% if ( typeof secondarySupplements !== 'undefined') { %>
+        <div class="container p-1 mt-4">
+            <div class="row">
+                <div class="col-8">
+                    <h1><%= secondarySupplements[0].type %> <br></h1>
+                </div>
+                <div class="col-4 d-none d-md-flex justify-content-md-end">
+                    <div class="btn-group" role="group"><button class="btn btn-outline-primary btn-lg border rounded-circle m-2" type="button" onclick="document.getElementById('<%= secondarySupplements[0].type %>').scrollLeft -= 200;"><i class="icon ion-android-arrow-dropleft"></i></button><button class="btn btn-outline-primary btn-lg border rounded-circle m-2" type="button" onclick="document.getElementById('<%= secondarySupplements[0].type %>').scrollLeft += 200;"><i class="icon ion-android-arrow-dropright"></i></button></div>
+                </div>
+            </div>
+            <div class="card-group card-group-scroll scrollbar-near-moon" id="<%= secondarySupplements[0].type %>">
+                <% secondarySupplements.forEach(el => { %>
+                 <div class="card border rounded-pill shadow-sm d-md-flex d-lg-flex align-items-center m-2">
+                    <div class="card-body">
+                        <h4 class="card-title"><%= el.name%></h4><a class="stretched-link" href="/category/<%= el.type %> /info/<%= el.name %>"></a>
+                    </div>
+                </div>
+                <% }) %>
+            </div>
+        </div>
+    <% } %>
+    
+</section>
 <%- include('partials/footer'); -%>
