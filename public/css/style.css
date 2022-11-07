@@ -1,0 +1,60 @@
+.store {
+  padding: 16px 0;
+  border-top: 1px solid #f1f2f2;
+  border-bottom: 1px solid #f1f2f2;
+}
+
+.bg-original-color, .content-original-color-outline:hover {
+  background-color: #D9736A;
+}
+
+.content-original-color {
+  color: #d9736a;
+}
+
+@media (min-width: 576px) {
+  .card-group.card-group-scroll {
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-group.card-group-scroll > .card {
+    flex-basis: 25%;
+  }
+}
+
+.card-group-scroll div:hover {
+  background-color: #f2e9d8;
+}
+
+footer {
+  font-family: 'EB Garamond', serif;
+}
+
+#bt-email {
+  margin-left: 0;
+}
+
+footer p {
+  margin: 0 auto;
+}
+
+#main-header {
+  background-image: url('../../assets/img/banner/mohammed_drink.jpeg');
+}
+
+#about {
+  background-color: #d9736a;
+}
+
+#bt-email + .btn {
+  background-color: #D9736A;
+}
+
+footer hr {
+  max-width: 50%;
+  background-color: #D9736A;
+}
+
