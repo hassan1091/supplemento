@@ -1,11 +1,24 @@
 {
   "name": "supplemento",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hassan ali",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassan1091/supplemento.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hassan1091/supplemento/issues"
+  },
+  "homepage": "https://github.com/hassan1091/supplemento#readme",
+  "description": ""
 }

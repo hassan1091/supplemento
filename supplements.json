@@ -1,0 +1,261 @@
+[
+  {
+    "name": "creatine",
+    "info": "it is a natural nutrient found in animal foods, is alleged to be an effective nutritional ergogenic aid to enhance sport or exercise performance",
+    "type": "sport",
+    "benefit": [
+      "increases performance in short-duration",
+      "increases in fat-free mass",
+      "improve neurological and cognitive function"
+    ],
+    "side_effect": ["weight gain", "diarrhea", "high blood pressure"]
+  },
+  {
+    "name": "whey protein",
+    "info": "comprises soluble whey proteins and its benefits are well described in the literature",
+    "type": "sport",
+    "benefit": [
+      "maximize muscle function during resistance exercise",
+      "increase muscle mass and hypertrophy",
+      "reduced blood pressure in patients with hypertension"
+    ],
+    "side_effect": [
+      "may cause stomach pains",
+      "may cause cramps",
+      "may cause headache"
+    ]
+  },
+  {
+    "name": "pre-workout",
+    "info": "mix of nutrients, vitamins, and amino acids along with some caffeine and sugar that will enhance your training and workout regimen",
+    "type": "sport",
+    "benefit": [
+      "feeling more energetic",
+      "streamline the recovery process by pumping more blood into your muscles"
+    ],
+    "side_effect": [
+      "feeling a bit jittery",
+      "may cause headache",
+      "may cause mild reactions"
+    ]
+  },
+  {
+    "name": "Vitamin C",
+    "info": "it is a water-soluble vitamin found in citrus and other fruits and vegetables, and also sold as a dietary supplement",
+    "type": "vitamin",
+    "benefit": [
+      "help prevent iron deficiency",
+      "boosts immunity",
+      "help manage high blood pressure"
+    ],
+    "side_effect": [
+      "may cause indigestion",
+      "large dose may cause. nausea, abdominal cramps and diarrhea",
+      "increases risk of kidney stones"
+    ]
+  },
+  {
+    "name": "Vitamin A",
+    "info": "it is a fat-soluble vitamin and an essential nutrient for humans",
+    "type": "vitamin",
+    "benefit": [
+      "helps the immune system, reproduction, and growth",
+      "slow down the rate of vision loss",
+      "lower their risk of dying of measles"
+    ],
+    "side_effect": [
+      "during pregnancy, it may cause birth defects in your baby",
+      "may cause headache",
+      "may cause muscle aches"
+    ]
+  },
+  {
+    "name": "Vitamin B-12",
+    "info": "it is a water-soluble vitamin that is naturally present in some foods, added to others, and available as a dietary supplement",
+    "type": "vitamin",
+    "benefit": [
+      "lower risk of depression",
+      "reducing the risk of macular degeneration"
+    ],
+    "side_effect": [
+      "may cause a tingling sensation in the hands and feet",
+      "may cause fatigue or weakness",
+      "may cause nausea and vomiting"
+    ]
+  },
+  {
+    "name": "Vitamin D",
+    "info": "it is a fat-soluble vitamin that is naturally present in a few foods, added to others, and available as a dietary supplement",
+    "type": "vitamin",
+    "benefit": [
+      "helps regulate the amount of calcium",
+      "helps regulate the amount of phosphate in the body"
+    ],
+    "side_effect": ["may cause hypercalcemia"]
+  },
+  {
+    "name": "Vitamin K",
+    "info": "it is a fat-soluble vitamin that comes in two forms",
+    "type": "vitamin",
+    "benefit": [
+      "involved with the production of proteins in bone",
+      "involved with the production of matrix Gla"
+    ],
+    "side_effect": [
+      "reduce appetite",
+      "difficulty in breathing",
+      "yellow eyes or skin"
+    ]
+  },
+  {
+    "name": "Vitamin E",
+    "info": "it is a fat-soluble vitamin with several forms, but alpha-tocopherol is the only one used by the human body",
+    "type": "vitamin",
+    "benefit": [
+      "essential to vision health",
+      "essential to reproductive health",
+      "essential to brain and skin health"
+    ],
+    "side_effect": [
+      "may cause creatinuria",
+      "may cause blurred vision",
+      "may cause gonadal dysfunction"
+    ]
+  },
+  {
+    "name": "Iron",
+    "info": "it is a mineral that the body needs for growth and development. Your body uses iron to make hemoglobin, a protein in red blood cells that carries oxygen from the lungs to all parts of the body",
+    "type": "mineral",
+    "benefit": [
+      "helps the growth of the body",
+      "helps make hemoglobin",
+      "helps make myoglobin"
+    ],
+    "side_effect": [
+      "may cause constipation",
+      "may cause nausea",
+      "may cause abdominal pain"
+    ]
+  },
+  {
+    "name": "Magnesium",
+    "info": "it is a mineral that is important for many processes in the body, including regulating muscle  and making protein, bone, and DNA",
+    "type": "mineral",
+    "benefit": [
+      "help prevent high blood pressure",
+      "help prevent type 2 diabetes",
+      "help prevent osteoporosis"
+    ],
+    "side_effect": [
+      "may cause diarrhoea",
+      "may cause nausea",
+      "may cause irregular heartbeat"
+    ]
+  },
+  {
+    "name": "Potassium",
+    "info": "it is a mineral that your body needs for almost everything it does, including proper kidney and heart function, muscle contraction, and nerve transmission",
+    "type": "mineral",
+    "benefit": [
+      "help prevent stroke",
+      "help prevent Kidney stones",
+      "blood sugar control"
+    ],
+    "side_effect": [
+      "may cause type 1 diabetes",
+      "may cause congestive heart failure",
+      "may cause liver disease"
+    ]
+  },
+  {
+    "name": "Zinc",
+    "info": "it is a nutrient that is found in cells throughout the body. It helps your immune system fights off invading bacteria and viruses",
+    "type": "mineral",
+    "benefit": [
+      "speeds recovery from the common cold",
+      "help prevent pneumonia in children",
+      "help prevent childhood diarrhoea"
+    ],
+    "side_effect": [
+      "may cause dizziness",
+      "may cause an upset stomach",
+      "may cause vomiting and loss of appetite"
+    ]
+  },
+  {
+    "name": "Calcium",
+    "info": "it is a mineral your body needs to build and maintain strong bones and carry out many paramount functions",
+    "type": "mineral",
+    "benefit": [
+      "Bone health in older adults",
+      "Weight management",
+      "help prevent Preeclampsia"
+    ],
+    "side_effect": [
+      "may cause poor muscle tone",
+      "may cause low phosphate levels",
+      "may cause constipation"
+    ]
+  },
+  {
+    "name": "Iodine",
+    "info": "it is a mineral that the body needs to make thyroid hormones",
+    "type": "mineral",
+    "benefit": [
+      "fetal and infant development",
+      "help prevent cognitive impairment function during childhood"
+    ],
+    "side_effect": [
+      "may cause fever",
+      "may cause stomach pain",
+      "may cause burning of the mouth"
+    ]
+  },
+  {
+    "name": "Hyaluronic acid",
+    "info": " it is a substance that occurs naturally in our bodies, and it’s effective because it holds a thousand times its weight in water",
+    "type": "beauty",
+    "benefit": [
+      "helps skin retain moisture",
+      "prevent moisture from evaporating into the air"
+    ],
+    "side_effect": ["may cause scleroderma"]
+  },
+  {
+    "name": "Ceramide",
+    "info": " it is fats or lipids that it found in skin cells. They make up 30% to 40% of your outer skin layer",
+    "type": "beauty",
+    "benefit": ["keep skin supple and smooth", "increase in skin moisture"],
+    "side_effect": ["causes itching"]
+  },
+  {
+    "name": "Biotin",
+    "info": "it boosts the health of the hair and nails",
+    "type": "beauty",
+    "benefit": [
+      "keeps hair healthy",
+      "keeps nails healthy",
+      "keeps eyes healthy"
+    ],
+    "side_effect": [
+      "may cause trouble sleeping",
+      "may cause skin rashes",
+      "may cause digestive upset"
+    ]
+  },
+  {
+    "name": "Collagen",
+    "info": "it peptides are tiny pieces of protein from animal collagen",
+    "type": "beauty",
+    "benefit": [
+      "skin elasticity",
+      "promote youthful skin texture",
+      "increase the strength of the nails"
+    ],
+    "side_effect": [
+      "may cause headaches",
+      "may cause digestive issues",
+      "may cause fatigue"
+    ]
+  }
+]
