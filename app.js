@@ -16,7 +16,9 @@ app.use(
 app.use("/public", express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
-  res.render("home");
+  res.render("home",{
+    supplementsList: supplements
+  });
 });
 
 app.get("/category/:category", (req, res) => {
@@ -25,6 +27,7 @@ app.get("/category/:category", (req, res) => {
   );
   res.render("category", {
     supplements: categorySupplements,
+    supplementsList: supplements
   });
 });
 
@@ -38,6 +41,7 @@ app.get("/category/:category/:category2", (req, res) => {
   res.render("category", {
     supplements: categorySupplements,
     secondarySupplements: categoryTowSupplements,
+    supplementsList: supplements
   });
 });
 
@@ -49,12 +53,24 @@ app.get("/category/:category/info/:name", (req, res) => {
   );
   res.render("supplement info", {
     supplement: supplement,
+    supplementsList: supplements
   });
 });
 
 app.get("/recommended", (req, res) => {
-  res.render("recommended stores");
+  res.render("recommended stores",{
+    supplementsList: supplements
+  });
 });
+
+app.post("/search", (req, res) => {
+  var searched = supplements.find(supplement => supplement.name === req.body.supplement)
+  if(searched !== undefined){
+    res.redirect("/category/" + searched.type + "/info/" + searched.name)
+  }else{
+    res.redirect('back')
+  }
+})
 
 app.get("/data", (req, res) => {
   res.send(JSON.stringify(supplements));
