@@ -76,6 +76,6 @@ app.get("/data", (req, res) => {
   res.send(JSON.stringify(supplements));
 });
 
-app.listen(3000, () => {
-  console.log("Server started on port 3000");
+app.listen(process.env.PORT || 5000, function() {
+  console.log("Server started on port 5000");
 });
