@@ -25,7 +25,7 @@
   }
 }
 
-.card-group-scroll div:hover {
+.card-group-scroll div:hover ,.btn-light:hover,.btn-outline-primary:hover{
   background-color: #f2e9d8;
 }
 
@@ -58,3 +58,6 @@ footer hr {
   background-color: #D9736A;
 }
 
+.three_d{
+  text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+}
